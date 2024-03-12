@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.sidebar {
+    width: 401px;
+    height: 1117px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    float: left;
+    background-color: black;
+    color: white;
+}
+
+.sidebar img {
+    width: 298px;
+    height: 298px;
+    top: 32px;
+    left: 32px;
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.sidebar ol {
+    top: 480px;
+    height: 180px;
+    width: 183px;
+    left: 30px;
+}
+
+.sidebar ol li {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.main {
+    margin-left: 250px;
+}
+
+.navbar {
+    height: 83px;
+    left: 401px;
+    background-color: black;
+}
+
+.navbar input[type="text"] {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 960px;
+    height: 46px;
+    top: 20px;
+    left: 426px;
+    background-color: #272A30;
+    border: none;
+}
+
+nav>img {
+    height: 58px;
+    width: 58px;
+    vertical-align: middle;
+}
+
+.signup-btn,
+.login-btn {
+    width: 176px;
+    height: 46px;
+    top: 20px;
+    left: 1261px;
+    color: white;
+    background-color: #FF2424;
+    margin-left: 10px;
+}
+
+.big-image {
+    border-radius: 30px;
+    width: 1384px;
+    height: 463px;
+    top: 106px;
+    left: 426px;
+}
+
+.menu-heading {
+    margin-top: 20px;
+    color: white;
+    margin: auto;
+}
+.menu-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 428px;
+    background-color: #191D20;
+    border-radius: 10px;
+    top: 655px;
+    left: 436px;
+    color: white;
+}
+
+.card img {
+    width: 410px;
+    border-radius: 10px;
+    height: 273px;
+    top: 668px;
+    left: 445px;
+    margin: 10px 10px 10px;
+}
+
+.card h3{
+    margin: 5px 0;
+    font-size: 24px;
+    width: 82px;
+    height: 36px;
+    top: 956px;
+    left: 456px;
+    margin-left: 10px;
+}
+.card p {
+    margin: 5px 0;
+    font-size:20px ;
+    margin-left: 10px;
+}
+.button-container {
+    position: relative;
+    left: 370px;
+    bottom: 55px;
+}
+button{
+    width: 39.46px;
+    height: 39.46px;
+    background-color: #272A30;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
